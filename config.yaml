@@ -28,4 +28,21 @@ monitors:
     url: 'https://maximiliangaedig.com/_matrix'
     method: GET
     expectStatus: 404
+    linkable: false
+  
+  - id: mautrix-telegram
+    name: Matrix Telegram
+    description: 'Matrix to telegram bridge'
+    url: 'https://maximiliangaedig.com/matrix/mautrix-telegram/login'
+    method: GET
+    expectStatus: 401
+    linkable: false
+
+  - id: mautrix-facebook
+    name: Matrix Facebook
+    description: 'Matrix to facebook messenger bridge'
+    url: 'https://maximiliangaedig.com/matrix/mautrix-facebook/login'
+    method: GET
+    expectStatus: 403
+    linkable: false
 
