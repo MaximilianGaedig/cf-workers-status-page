@@ -36,7 +36,7 @@ monitors:
     description: 'Matrix to telegram bridge'
     url: 'https://maximiliangaedig.com/matrix/mautrix-telegram/login'
     method: GET
-    expectStatus: 401
+    expectStatus: 403
     linkable: false
 
   - id: mautrix-facebook
